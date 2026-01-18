@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ==========google fonts======= */
+*{
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========Responsive Section ======== */
+/* ========Large Device: above 992 px========= */
+@media screen  and (min-width:993px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========== Medium device (Tablet) 576px to 992px======= */
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======small device (mobile) up to 576px ===== */
+@media screen and (max-width:576px) {
+    
+}
