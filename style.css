@@ -1,3 +1,7 @@
+body{
+    background-color: #1A0B2E;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,14 +12,47 @@
 font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 16px;
+ 
+}
+.nav-logo {
+font-size: 48px;
+}
 
+.nav-menu {
+    display:flex;
+    gap:32px;
+    list-style: none;
+    line-height: 120%;
 
+    
+}
 
-
-
-
-
-
+.nav-menu,ul {
+   font-size: 16px;
+    color:white;
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.btn-sub {
+display:inline-flex;
+gap:6px
+align-items:center;
+padding:10px 10px;
+border-radius:25px;
+font-size:16px;
+font-weight:700;
+color:#ffffff;
+background:linear-gradient( to right,#f7e93f, #fb09ba, #9100fb);
+}
+ 
 
 
 
@@ -35,7 +72,15 @@ font-family: "Inter", sans-serif;
 /* ===========Responsive Section ======== */
 /* ========Large Device: above 992 px========= */
 @media screen  and (min-width:993px) {
-    
+    .hamburger{
+        display:none;
+    }
+    .nav-menu{
+        padding-right: 20px;
+    }
+    .nav-logo{
+        padding-left: 20px;
+    }
 }
 
 
@@ -91,5 +136,8 @@ font-family: "Inter", sans-serif;
 
 /* =======small device (mobile) up to 576px ===== */
 @media screen and (max-width:576px) {
+    .nav-menu {
+       display:none;
+    }
     
 }
