@@ -26,7 +26,7 @@
         </nav>
      </header>
         <!-- ===========BANNER SECTION========== -->
-     <div class="banner-container" >
+     <div class="banner-container,hidden" >
          <img src="./assets/hero-bg.png" alt="">
              <div class="banner-content" >
             
@@ -52,7 +52,7 @@
     </div>
 
     <!-- ============About Section =========== -->
-     <section id="about">
+     <section id="about"class="hidden">
       <div class="about-container">
         <div class="about-content">
           <div class="about-head">
@@ -88,30 +88,106 @@ and share stories of personal growth from industry leaders.
       </div>
      </section>
 <!-- ============ Choose Section============ -->
- <div id="chose">
+ <div id="chose"class="hidden">
   <div class="choose-container">
-    <div class="choose-content">
+    <div style="background-color: chartreuse;" class="choose-content">
+      <h3 class="head">Why Choose TechWave</h3>
     <div class="choose-box">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div style="background-color: antiquewhite;" class="box-1">
+        <img src="./assets/headphone.png" alt="">
+        <h4 class="head-4">Premium Audio Quality</h4>
+        <p class="p-text">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+      </div>
+      <div style="background-color: aqua;" class="box-2">
+        <img src="./assets/device.png" alt="">
+        <h1 class="head-4">Mobile Friendly</h1>
+        <p class="p-text">Listen on the go with seamless mobile experience and offline downloads.</p>
+      </div>
+      <div style="background-color: blue;" class="box-3"> 
+      <img src="./assets/location.png" alt="">
+      <h4 class="head-4">Global Community</h4>
+      <p class="p-text">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+    </div>
+      <div style="background-color: blueviolet;"  class="box-4">
+        <img style="width: 60px; height: 60px;background:linear-gradient(to right,#F7E93F,#FB09B4,#9100F8);" src="./assets/zap.png" alt="">
+         <h4 class="head-4">Exclusive Interviews</h4>
+      <p class="p-text">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+      </div>
+      <div style="background-color: burlywood;" class="box-5">
+        <img src="./assets/resource.png" alt="">
+        <h4 class="head-4">Rich Resources</h4>
+        <p class="p-text">
+          Access show notes, transcripts, and additional learning materials for every episode.
+        </p>
+      </div>
+
+ 
     </div>
         
      
     </div>
   </div>
  </div>
+ <!-- ===========featured Section========== -->
+  <section id="featured,hidden">
+    <div class="featured-container">
+      <div class="featured-content">
+        <h3 class="head">Featured Episodes</h3>
+        <div class="featured-box">
+          <div class="box-1">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/H5zSQ9M_s2Y?si=Ckc4wwu45QPEFKPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           <h4>The Future of AI in Everyday Life </h4>
+           <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+           <img src="./assets/clock.png" alt="">
+            <p class="price">42 min</p>
+          </div>
+          <div class="box-2">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZrEST63Xi6o?si=hsPUtsJPsW15SQCF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <h4>Building Better Habits for Remote Work</h4>
+              <p>Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+              <img src="./assets/clock.png" alt="">
+            <p class="price">35 min</p>
+          </div>
+          <div class="box-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xjKzC6r5q5s?si=JE1HdMwkvWKY0B34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h4>Career Growth in Tech: A Roadmap</h4>
+            <p>Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+            <img src="./assets/clock.png" alt="">
+            <p class="price">51 min</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+<!-- ========== Meet Section ============== -->
+ <section id="meet,hidden">
+  <div class="meet-container">
+   
+    <div class="meet-content">
+       <h3 class="head">Meet the Host</h3>
+      <div>
+        <img src="./assets/host.png" alt="">
+      </div>
+      <div class="meet-description">
+        <h2>Alex Kumar</h2>
+        <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+        <div class="meet-icon">
+          <img src="./assets/linkedin.png" alt="">
+          <img src="./assets/x.png" alt="">
+          <img src="./assets/instagram.png" alt="">
+          <img src="./assets/youtube.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+ </section>
 
 
 
-
-
-      <!-- ============footer section =============
-    <footer class="footer-container">
+       <!-- ============footer section ============= -->
+    <footer class="footer-container,hidden">
       <div class="footer-content">
         <img src="./assets/footer-bg.png" alt="">
             <h1 >TechWave</h1>
@@ -136,6 +212,6 @@ and share stories of personal growth from industry leaders.
             
       </div>
 
-    </footer> -->
+    </footer> 
 </body>
 </html>
